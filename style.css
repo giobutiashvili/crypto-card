@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+:root { 
+    --main-bg: #0D192C;
+    --card-bg: #15263F;
+    --line: #2E405A;
+
+}
+body{
+    background-color:var(--main-bg);
+    font-family: 'Outfit';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.container{
+    background-color:var(--card-bg);
+    Width:350px;
+    border-radius:15px;
+    padding: 24px;
+}
+.container p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+.container h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 24px 0 16px 0;
+    
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+.stone , .time{
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.stone span , .time span{
+    margin-left: 6px ;
+}
+.shop .stone{
+    font-weight: 600;
+    color: #00FFF8;
+}
+.shop .time{
+    font-weight: 400;
+    color: #8BACD9;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: var(--line);
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin: 24px 0 34px 0;
+}
+.author span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.author img{
+    height: 33px;
+    margin-right: 18px;
+}
